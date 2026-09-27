@@ -1,6 +1,15 @@
+<center>
+
+
+# Clash of Clans Automation Bot
+
 A Python-based automation bot for Clash of Clans running on the Google Play Games emulator (Windows). Handles attack initiation, troop deployment, hero abilities, and optional loot tracking via OCR.
 
----
+
+![1](/vid/1.gif)
+
+</center>
+
 
 ## Table of Contents
 
