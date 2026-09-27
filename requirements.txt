@@ -1,0 +1,35 @@
+# ============================================================
+# Core (required for modes 1, 3, 4)
+# ============================================================
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# ============================================================
+# Recommended (mode 1/2/3/4 - 3-8x faster screen capture)
+# ============================================================
+mss>=9.0.1
+
+# ============================================================
+# OCR (required for mode 2 - storage check)
+# ============================================================
+rapidocr-onnxruntime>=1.3.0
+
+# ============================================================
+# Optional (OCR - only if rapidocr fails to install)
+# onnxruntime>=1.16.0
+# ============================================================
+
+# ============================================================
+# Optional (GPU template matching - only if you built OpenCV
+# with CUDA support yourself, e.g. via opencv-contrib-python
+# built from source with -DWITH_CUDA=ON)
+# ============================================================
+# opencv-contrib-python>=4.8.0
+
+# ============================================================
+# Optional (standalone click logger utility, if you use it)
+# ============================================================
+# pynput>=1.7.6
